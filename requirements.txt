@@ -1,0 +1,8 @@
+flask
+flask-cors
+numpy
+Pillow
+face-recognition
+ultralytics
+supabase
+python-dotenv
