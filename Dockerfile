@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Copy file requirements vào container
 COPY requirements.txt .
-
+RUN apt-get update && apt-get install -y build-essential cmake
 # Cài đặt dependencies
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
