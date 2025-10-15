@@ -3,7 +3,7 @@ flask
 flask-cors
 numpy
 Pillow
-face-recognition
+face-recognition @ git+https://github.com/ageitgey/face_recognition.git
 ultralytics
 supabase
 python-dotenv
