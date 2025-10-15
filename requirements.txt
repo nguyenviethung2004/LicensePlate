@@ -6,3 +6,4 @@ face-recognition
 ultralytics
 supabase
 python-dotenv
+albumentations
